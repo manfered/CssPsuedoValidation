@@ -1,0 +1,27 @@
+﻿
+input:valid + .invalid{
+    visibility: hidden;
+}
+
+input:invalid + .invalid{
+    visibility: visible;
+}
+
+input:required{
+    border-bottom: 2px solid #c33;
+}
+
+input:valid{
+    border-bottom: transparent;
+}
+
+.invalid{
+    color: #999;
+}
+
+
+.div-center{
+    margin:auto;
+    width:100%;
+    text-align:center;
+}
